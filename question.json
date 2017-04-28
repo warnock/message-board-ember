@@ -10,5 +10,12 @@
     "author": "Jimmy",
     "query": "Where should I start for mobile dev?",
     "notes": "I want to become a mobile dev"
+  }],
+  "answers": [{
+    "response": "Start by doing a free code camp!",
+    "name": "Jones"
+  }, {
+    "response": "No one uses ember so it's better just to scrap it!",
+    "name": "Everyone"
   }]
 }

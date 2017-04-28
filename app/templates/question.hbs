@@ -1,3 +1,10 @@
 {{question-detail question=model}}
 
 {{question-update question=model update="update"}}
+
+{{new-answer saveAnswer="saveAnswer" question=model}}
+
+<h1>answer test</h1>
+{{#each model.answers as |answer|}}
+<p>{{answer.name}} said, {{answer.response}}</p>
+{{/each}}

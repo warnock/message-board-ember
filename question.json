@@ -1,0 +1,14 @@
+{ "questions": [{
+    "author": "Stacy's Mom",
+    "question": "What is this HTML thing?",
+    "notes": "I don't get kids these days"
+  }, {
+    "author": "Sam",
+    "question": "What is the meaning of life?",
+    "notes": "Oh I see this is a QA about tech nvm"
+  }, {
+    "author": "Jimmy",
+    "question": "Where should I start for mobile dev?",
+    "notes": "I want to become a mobile dev"   
+  }]
+}

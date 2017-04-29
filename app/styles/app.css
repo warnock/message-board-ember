@@ -1,7 +1,38 @@
 #bs-example-navbar-collapse-1 > ul.nav.navbar-nav.navbar-right > a > i  {
   font-size: 30px;
   margin-top: 8px;
+  margin-right: 8px;
+  color: #eee;
 }
 .jumbotron {
   margin-bottom: 0!important;
+  background-image: url("/img/header.jpeg");
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 81px;
+  background-attachment: fixed;
+  background-size: contain;
+}
+.btn-response {
+  float: right;
+  margin-top: -54px;
+}
+#ember390 {
+  text-decoration: none;
+}
+.questionHeading {
+  color: #333;
+}
+
+@media (max-width: 925px) {
+  .jumbotron {
+    background-size: cover;
+  }
+}
+
+@media (max-width: 767px) {
+  #bs-example-navbar-collapse-1 > ul.nav.navbar-nav.navbar-right > a > i  {
+    margin-left: 15px;
+    margin-right: 0;
+  }
 }

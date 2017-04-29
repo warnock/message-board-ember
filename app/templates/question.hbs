@@ -2,9 +2,14 @@
 
 {{question-update question=model update="update"}}
 
-{{new-answer saveAnswer="saveAnswer" question=model}}
+<hr>
+<div class=""><h1>Answers</h1>{{new-answer saveAnswer="saveAnswer" question=model}}</div>
+<hr>
 
-<h1>answer test</h1>
 {{#each model.answers as |answer|}}
-<p>{{answer.name}} said, {{answer.response}}</p>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <strong>{{answer.name}}</strong> said, {{answer.response}}
+  </div>
+</div>
 {{/each}}

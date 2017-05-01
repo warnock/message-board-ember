@@ -16,6 +16,14 @@ You will need the following things properly installed on your computer.
 * [PhantomJS](http://phantomjs.org/)
 
 ### Installation
+This application also uses a Firebase database. If you want to connect using your own database create a new Firebase application and configure the settings in the environment.js file found in the config folder:
+
+`firebase: {
+  apiKey: "YOUR API KEY",
+  authDomain: "YOUR AUTH DOMAIN",
+  databaseURL: "YOUR DATABASEURL",
+  storageBucket: "YOUR STORAGEBUCKET",
+},`
 
 In your terminal run these commands:
 * `git clone <https://github.com/warnock/message-board-ember.git>` this repository
